@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/nav_addContacts"
+            android:icon="@drawable/ic_baseline_group_add_24"
+            android:title="Add Contacts" />
+
+        <item
+            android:id="@+id/nav_instructions"
+            android:icon="@drawable/ic_baseline_help_24"
+            android:title="Instructions" />
+
+        <item
+            android:id="@+id/nav_firstAid"
+            android:icon="@drawable/ic_baseline_add_circle_24"
+            android:title="FirstAid Details" />
+
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_baseline_exit_to_app_24"
+            android:title="Logout" />
+    </group>
+
+
+
+    <item android:title="Communicate">
+
+        <menu>
+
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_baseline_group_24"
+                android:title="About Us" />
+
+            <item
+                android:id="@+id/nav_contact"
+                android:icon="@drawable/ic_baseline_contact_phone_24"
+                android:title="Contact Us" />
+        </menu>
+    </item>
+</menu>
